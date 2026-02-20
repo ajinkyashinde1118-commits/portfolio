@@ -1,0 +1,96 @@
+.heading{
+    font-family: "Sacramento", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+}
+.description{
+    font-family: "Source Code Pro", monospace;
+    font-weight:300;
+    font-style: normal;
+}
+.tag{
+    text-decoration: underline;
+}
+body {
+    margin: 0;
+    width: 100%;
+    font-family: "Exo", sans-serif;
+    color: #fff;
+    background: linear-gradient(90deg, #ffa9a9, #64a1e0, #ffa9a9, #64a1e0);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 7s ease infinite forwards;
+    animation: gradientBG 7s ease infinite forwards;
+}
+
+
+h1 {
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+@-webkit-keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.profile{
+    border-radius: 50%;
+    height: 100px;
+}
+#featured-3 {
+    margin-top: 100px;
+}
+.skill{
+    text-align: center;
+    color:black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.skillhead{
+    color: white;
+    font-size: 2rem;
+}
+svg {
+    margin-bottom: 20px;
+}
+.instagram-icon {
+    width: 50px;
+    /* Adjust the size */
+    height: 50px;
+    /* Adjust the size */
+    fill: #fff;
+    /* Change the icon color (e.g., to white) */
+    /* Add hover effects */
+}
+
+.instagram-icon:hover {
+    fill: #d62976;
+    /* Change color on hover (e.g., Instagram pink) */
+}
